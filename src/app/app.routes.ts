@@ -1,3 +1,10 @@
 import { Routes } from '@angular/router';
+import { UserTablesComponent } from './user-tables/user-tables.component';
 
-export const routes: Routes = [];
+export const routes: Routes = [
+    {
+        path: 'tables',
+        component: UserTablesComponent,
+        title: 'Table Plan',
+    }
+];
