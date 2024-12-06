@@ -1,6 +1,6 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RouterLink } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { UserTablesComponent } from "../user-tables/user-tables.component";
 
 @Component({
@@ -13,11 +13,13 @@ import { UserTablesComponent } from "../user-tables/user-tables.component";
 export class LoginComponent {
   passwordId = signal('7070');
   enteredPassword = signal('');
+  private router = inject(Router);
 
   onSubmit() {
     if (this.enteredPassword() === this.passwordId()) {
       console.log(this.enteredPassword());
       this.enteredPassword.set('');
+      this.router.navigate(['/tables'])
     } else {
       this.enteredPassword.set('Please enter valid password!');
       setTimeout(() => {
