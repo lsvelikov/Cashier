@@ -19,7 +19,9 @@ export class LoginComponent {
     if (this.enteredPassword() === this.passwordId()) {
       console.log(this.enteredPassword());
       this.enteredPassword.set('');
-      this.router.navigate(['/tables'])
+      this.router.navigate(['/tables'], {
+        replaceUrl: true
+      })
     } else {
       this.enteredPassword.set('Please enter valid password!');
       setTimeout(() => {
