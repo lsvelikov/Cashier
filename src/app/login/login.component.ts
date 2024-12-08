@@ -28,7 +28,7 @@ export class LoginComponent {
       this.enteredPassword.set('Please enter valid password!');
       setTimeout(() => {
         this.enteredPassword.set('');
-      }, 1200);
+      }, 1500);
     }
   }
 }
