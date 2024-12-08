@@ -1,12 +1,12 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterOutlet } from '@angular/router';
-import { UserTablesComponent } from "../user-tables/user-tables.component";
+import { UserTablesComponent } from "./user-tables/user-tables.component";
 
 @Component({
   selector: 'app-login',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, RouterOutlet],
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
