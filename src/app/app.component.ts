@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { HeaderComponent } from "./header/header.component";
 import { RouterLink, RouterOutlet } from '@angular/router';
 
@@ -11,4 +11,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'cashier-app';
+  isClicked = false;
+
+  onClick() {
+    this.isClicked = true;
+  }
 }

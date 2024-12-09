@@ -1,7 +1,8 @@
 <app-header></app-header>
 <main>
-    <button routerLink="login">Login</button>
+    @if (!isClicked) {
+        <button routerLink="login" (click)="onClick()">Login</button>
+    }
+    
     <router-outlet></router-outlet>
 </main>
-
-
