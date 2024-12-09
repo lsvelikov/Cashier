@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterOutlet } from '@angular/router';
-import { UserTablesComponent } from "./user-tables/user-tables.component";
+
 
 @Component({
   selector: 'app-login',
@@ -22,7 +22,7 @@ export class LoginComponent {
       this.enteredPassword.set('');
       this.login = true;
       this.router.navigate(['/tables'], {
-        replaceUrl: true
+        replaceUrl: true,
       })
     } else {
       this.enteredPassword.set('Please enter valid password!');
