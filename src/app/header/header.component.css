@@ -11,6 +11,7 @@ header {
 img {
     width: 6.5rem;
     object-fit: contain;
+    margin: 2rem 0;
   }
   
   h1 {
