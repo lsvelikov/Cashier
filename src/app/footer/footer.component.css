@@ -1,0 +1,13 @@
+.site-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    margin-top: -0.1px;
+}
+
+li{
+    list-style-type: none;
+    padding: 0.2rem 0;
+}
