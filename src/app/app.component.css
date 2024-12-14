@@ -8,14 +8,13 @@
 }
 
 .site-section.site-header {
-    background: rgb(92, 163, 180);
+    background: rgb(37, 104, 163);
 }
 
 .site-section.banner {
     background: rgb(87, 141, 187);
     color: white;
     text-align: center;
-    margin-bottom: 3rem;
 }
 
 button {

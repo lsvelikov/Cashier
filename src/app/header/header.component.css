@@ -1,6 +1,7 @@
 .site-header {
     display: flex;
     justify-content: space-between;
+    color: white;
 }
 
 .site-header nav ul {
