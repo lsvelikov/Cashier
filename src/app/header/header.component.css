@@ -1,11 +1,13 @@
 .site-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
 }
 
 .site-header nav ul {
   display: flex;
+  align-items: center;
 }
 
 .site-header nav li {
