@@ -8,7 +8,7 @@ import { FooterComponent } from "./footer/footer.component";
   standalone: true,
   imports: [HeaderComponent, RouterOutlet, RouterLink, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'cashier-app';

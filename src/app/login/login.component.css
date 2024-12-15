@@ -19,5 +19,13 @@ h2 {
 }
 
 .action {
+    background-color: #4754b2;
+    border: none;
+    border-radius: 45%;
+    color: white;
+    padding: 10px 22px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

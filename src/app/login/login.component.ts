@@ -8,7 +8,8 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [FormsModule],
   templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  styleUrl: './login.component.css',
+  
 })
 export class LoginComponent {
   passwordId = signal('7070');

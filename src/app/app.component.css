@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-button {
+.action {
     background-color: #4754b2; 
     border: none;
     border-radius: 45%;
