@@ -1,11 +1,10 @@
 .site-footer {
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
     display: flex;
     justify-content: space-around;
-    border-top: 1px solid #4754b2;
 }
 
 ul {
@@ -14,5 +13,9 @@ ul {
 
 li {
     list-style-type: none;
-    padding: 0.2rem 0;
+    padding: 0.2em 0;
+}
+
+.contacts p {
+    max-width: 15em;
 }
