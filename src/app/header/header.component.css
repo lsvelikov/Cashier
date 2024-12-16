@@ -1,8 +1,12 @@
 .site-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;  
     color: white;
+}
+
+.site-header h1 {
+  margin-right: -2.3em;
 }
 
 .site-header nav ul {
