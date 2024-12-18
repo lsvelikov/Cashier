@@ -17,15 +17,3 @@ h2 {
     background-color: #3fa290;
     text-align: center;
 }
-
-.action {
-    background-color: #4754b2;
-    border: none;
-    border-radius: 45%;
-    color: white;
-    padding: 0.5em 1.1em;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 0.8em;
-}
